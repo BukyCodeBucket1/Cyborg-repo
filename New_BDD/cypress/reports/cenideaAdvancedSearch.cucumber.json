@@ -1,0 +1,53 @@
+[
+  {
+    "description": " I want to search for a specific product by name, category, or price range, so I can find what I'm looking",
+    "keyword": "Feature",
+    "name": "Advanced search",
+    "line": 1,
+    "id": "advanced-search",
+    "tags": [],
+    "uri": "AdvancedSearch.feature",
+    "elements": [
+      {
+        "id": "advanced-search;logged-into-my-account",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Logged into my account",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am logged into my account",
+            "result": {
+              "status": "passed",
+              "duration": 3858000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on Advanced search",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see a search form with fields for product name, category, and price range",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

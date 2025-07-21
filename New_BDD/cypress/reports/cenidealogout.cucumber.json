@@ -1,0 +1,64 @@
+[
+  {
+    "description": "        As a user\n        I want to authenticate the web application\n        so as to ensure successful logout",
+    "keyword": "Feature",
+    "name": "Testing logout authentication",
+    "line": 1,
+    "id": "testing-logout-authentication",
+    "tags": [],
+    "uri": "logout.feature",
+    "elements": [
+      {
+        "id": "testing-logout-authentication;testing-for-succesful-logout",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Testing for Succesful logout",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "ariajohnson1511@gmail.com",
+                      "Johnson"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "logged into my account",
+            "result": {
+              "status": "passed",
+              "duration": 12382000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I logout",
+            "result": {
+              "status": "passed",
+              "duration": 1081000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "logout successful",
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

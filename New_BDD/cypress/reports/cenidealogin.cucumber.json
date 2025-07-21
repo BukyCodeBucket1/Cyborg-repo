@@ -1,0 +1,174 @@
+[
+  {
+    "description": "        As a user\n        I want to authenticate the web application\n        so as to ensure successful login",
+    "keyword": "Feature",
+    "name": "Testing login authentication",
+    "line": 1,
+    "id": "testing-login-authentication",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "testing-login-authentication;testing-for-succesful-login",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Testing for Succesful login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on login page",
+            "result": {
+              "status": "passed",
+              "duration": 11710000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I enter username \"ariajohnson1511@gmail.com\" and password \"Johnson\"",
+            "result": {
+              "status": "passed",
+              "duration": 2707000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "login successful",
+            "result": {
+              "status": "failed",
+              "duration": 4076000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected '<strong>' to contain text 'Hello, Ebuka Frank', but the text was 'Quick Links'\n    + expected - actual\n\n    -'Quick Links'\n    +'Hello, Ebuka Frank'\n\n    at DashboardPage.confirmLogin (cypress/e2e/pages/dashboardPage.ts:3:31)\n    at Context.eval (cypress/e2e/step_definitions/login.spec.ts:31:16)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n    at getRet (https://live.techpanda.org/__cypress/runner/cypress_runner.js:118320:20)\n    at tryCatcher (https://live.techpanda.org/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://live.techpanda.org/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://live.techpanda.org/__cypress/runner/cypress_runner.js:118331:66)\n    at Context.then (https://live.techpanda.org/__cypress/runner/cypress_runner.js:118582:21)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "testing-login-authentication;testing-for-unsuccesful-login",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Testing for Unsuccesful login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I am on login page",
+            "result": {
+              "status": "passed",
+              "duration": 3862000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I enter username \"ariajohns1@gmail.com\" and password \"Johnson\"",
+            "result": {
+              "status": "passed",
+              "duration": 2409000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "login Unsuccesful",
+            "result": {
+              "status": "passed",
+              "duration": 63000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "testing-login-authentication;testing-for-unsuccesful-login",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Testing for Unsuccesful login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I am on login page",
+            "result": {
+              "status": "passed",
+              "duration": 3278000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I enter username \"arixxxxx1511@gmail.com\" and password \"Jgggnson\"",
+            "result": {
+              "status": "passed",
+              "duration": 2204000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "login Unsuccesful",
+            "result": {
+              "status": "passed",
+              "duration": 79000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "testing-login-authentication;testing-for-unsuccesful-login",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Testing for Unsuccesful login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I am on login page",
+            "result": {
+              "status": "passed",
+              "duration": 2134000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I enter username \"dsvhbujsnd@yahoo.com\" and password \"fvsghyhdb\"",
+            "result": {
+              "status": "passed",
+              "duration": 2969000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "login Unsuccesful",
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

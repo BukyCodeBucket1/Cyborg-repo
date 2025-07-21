@@ -18,7 +18,9 @@ import './commands';
 
 
 before(()=>{
-    cy.log("This is kind of global hook");
+   
+    cy.visit("/");
+    //cy.log("This is kind of global hook");
     cy.clearCookies();
     cy.clearLocalStorage();
 })
@@ -26,7 +28,7 @@ before(()=>{
 
 after(()=>{
 
-    cy.log("This is kind of global hook");
+    
     cy.clearCookies();
     cy.clearLocalStorage();
 
@@ -35,6 +37,8 @@ after(()=>{
 
 
 beforeEach(()=>{
+    cy.visit("/");
+
 
 })
 
